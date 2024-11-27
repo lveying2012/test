@@ -1,5 +1,5 @@
 import os, shutil
-
+import re
 workdir = '/Volumes/WPP/00_data/oldPre/data_raw'
 files = sorted(os.listdir(workdir))  ##以按顺序读取
 for sub in files:
